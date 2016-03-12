@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tetris</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <img src="./images/tetris-logo.png" class="logo"/>
+    <img src="./images/instructions.png" class="instructions"/>
+  </div>
+  <div class="outerbox">
+      <canvas id="game"
+          class="game-canvas"
+          width="300px"
+          height="600px">
+      </canvas>
+
+      <h2 id="game-over"></h2>
+      <div>
+          <img src="./images/next.png" class="next"/>
+          <div class="shapes">
+            <img src="./images/i-shape.png" id="iShape" class="shape hidden" />
+            <img src="./images/j-shape.png" id="jShape" class="shape hidden" />
+            <img src="./images/l-shape.png" id="lShape" class="shape hidden" />
+            <img src="./images/o-shape.png" id="oShape" class="shape hidden" />
+            <img src="./images/s-shape.png" id="sShape" class="shape hidden" />
+            <img src="./images/t-shape.png" id="tShape" class="shape hidden" />
+            <img src="./images/z-shape.png" id="zShape" class="shape hidden" />
+          </div>
+
+      </div>
+
+      <div class="score">
+          <img src="./images/score.png" class="score"/>
+          <h2 id="score"></h2>
+      </div>
+  </div><!--outerbox-->
+  <script src="main.bundle.js"></script>
+</body>
+</html>

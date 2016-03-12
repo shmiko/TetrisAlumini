@@ -1,0 +1,80 @@
+body{
+  background-image: url('./images/body-background.png');
+}
+
+.logo{
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: 52px;
+}
+
+.score{
+  position: absolute;
+  top: 241px;
+  right: -4px;
+  width: 166px;
+}
+
+.instructions{
+  position: absolute;
+  top: 47px;
+  width: 300px;
+  right: 70px;
+}
+
+.outerbox{
+  background-image: url('./images/box-background.png');
+  width: 542px;
+    height: 763px;
+    margin: 0 auto;
+    margin-top: 17px;
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.next {
+    position: absolute;
+    top: 94px;
+    right: 5px;
+}
+
+.shape {
+  position: absolute;
+  top: 160px;
+  right: 22px;
+}
+
+.shape.hidden{
+  display:none;
+}
+.game-canvas {
+  border: 3px solid #999;
+  border-radius: 3px;
+  margin: auto;
+  display: block;
+  background-image:url('./images/background.png');
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+  -moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+  box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.32);
+  margin-left:52px;
+}
+
+#score{
+  color: #fff;
+  position: absolute;
+  top: 304px;
+  right: -5px;
+  width: 136px;
+  font-size: 40px;
+}
+
+
+#game-over{
+  position: absolute;
+  top: 165px;
+  color: #fff;
+  font-size: 100px;
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.55);
+}
